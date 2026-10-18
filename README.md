@@ -11,18 +11,28 @@
 
 
 ```
-100048777766367/vault-01/
-├── contract.json                  # Hiến ước thế hệ F1
-├── kernel.py                      # Đốc công F1 tự phôi thai thể xác
-├── README.md                      # Tuyên ngôn Cháu Hơn Tổ
+100048777766367/vault-03/
+├── contract.json                  # Hiến ước thế hệ F3 Apex Recombinant
+├── kernel.py                      # Đốc công F3 tự phôi thai thể xác
+├── README.md                      # Tuyên ngôn Cháu Hơn Tổ Siêu XOR N^N
 ├── Dockerfile                     # python:3.14-slim
-├── cortex_vault01/                # 🏭 5 MÀNG LỌC XẾP TẦNG & HÚT ĐA MỎ
-│   ├── __init__.py
-│   ├── omni_harvester.py          # Quét tất cả các mỏ sống và di cốt
-│   └── stacked_sieve.py           # 5 tầng lọc: Cú pháp -> PII -> Bản quyền -> Byzantine -> Khử trùng
-├── dist/                          # Kho thành phẩm xuất xưởng F1
+│
+├── cortex_vault03/                # 🧬 PHÂN XƯỞNG LAI TẠO & CHỌN LỌC TỰ NHIÊN
+│   ├── __init__.py                # Package init
+│   ├── multi_parent_harvester.py  # Hút quặng đồng thời từ vault, vault-01, vault-02
+│   ├── crossover_xor.py           # Ma trận Siêu XOR N^N hoán vị và xáo trộn tổ hợp gen
+│   └── natural_selector.py        # Hàm thích nghi Fitness chấm điểm, đào thải biến dị xấu
+│
+├── dist/                          # Kho thành phẩm F3 Apex siêu tinh khiết
 ├── organs/                        # Nơi cắm module mở rộng (lỗi tự hủy)
-├── synapses/                      # Sổ sách xuất xưởng F1
-└── .github/workflows/node.yml     # Workflow bọc thép tự trị
+│
+├── synapses/                      # Sổ sách phả hệ tích lũy
+│   ├── peers.json                 # Danh bạ 3 mỏ tổ tiên
+│   ├── state.json                 # Nhật ký thế hệ F3
+│   └── lineage_crossover.json     # Bản đồ phân tích gen thừa hưởng từ các đời
+│
+└── .github/
+    └── workflows/
+        └── node.yml               # Workflow bọc thép tự trị – actions/setup-python@v7
 
 ```
